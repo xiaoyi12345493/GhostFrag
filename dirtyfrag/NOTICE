@@ -1,0 +1,22 @@
+GhostFrag 附属包 (DirtyFrag companion)
+=======================================
+
+This module is an import of the DirtyFrag application:
+https://github.com/mitschud/DirtyFrag
+
+It is licensed under GPL-2.0-only; see LICENSE in this directory. The module is
+built as a separate APK with applicationId `df.root` and is not linked into the
+GhostLock APK (applicationId `com.ghostlock.app`). GhostLock only detects and
+launches it through an explicit Intent.
+
+Upstream chain and credits as recorded by the DirtyFrag README:
+
+- Upstream project and exploit chain: https://github.com/diabl0w/DFRoot
+- Original PoC and related code: https://github.com/lsposed/lspromise
+- SELinux permissive kernel modules and related code:
+  https://github.com/polygraphene/DFReroot
+- Unprivileged XFRM socket method: https://github.com/combeng6th/DirtyInit
+
+The eight prebuilt LKMs under `src/main/jni/ko/` are imported unchanged. They
+embed `/data/user_de/0/df.root/...` paths, which is why this module keeps the
+original package name.
