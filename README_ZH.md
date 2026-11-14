@@ -17,7 +17,16 @@ GhostFrag 提供两个执行引擎：
 ./gradlew :dirtyfrag:assembleDebug
 ```
 
-产物为 `dirtyfrag/build/outputs/apk/debug/dirtyfrag-debug.apk`。在项目中存在，源码就是DirtyFrag，更改了包名 。
+产物为 `dirtyfrag/build/outputs/apk/debug/dirtyfrag-debug.apk`。也可以直接从 [最新 release](https://github.com/xiaoyi12345493/GhostFrag/releases/latest) 下载主程序、附属包和 profile。
+
+## 下载
+
+- [最新 release](https://github.com/xiaoyi12345493/GhostFrag/releases/latest)
+- [GhostFrag 主程序 APK](https://github.com/xiaoyi12345493/GhostFrag/releases/latest/download/GhostFrag-debug.apk)
+- [GhostFrag 附属包 APK](https://github.com/xiaoyi12345493/GhostFrag/releases/latest/download/GhostFrag-Companion-debug.apk)
+- [6.1.157-android14-11-g19a495a97bff profile](https://github.com/xiaoyi12345493/GhostFrag/releases/latest/download/6.1.157-android14-11-g19a495a97bff.conf)
+
+当前最新 release 为 v1.1，包含修正后的 6.1.157 profile（`kernel_phys_load = 0xa8080000`）。
 
 ## 使用
 

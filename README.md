@@ -17,7 +17,16 @@ The main app detects the companion, the kernel KMI, and an SU manager that ships
 ./gradlew :dirtyfrag:assembleDebug
 ```
 
-The APK is written to `dirtyfrag/build/outputs/apk/debug/dirtyfrag-debug.apk`. No public download link is available yet.
+The APK is written to `dirtyfrag/build/outputs/apk/debug/dirtyfrag-debug.apk`. Prebuilt APKs are available from the [latest release](https://github.com/xiaoyi12345493/GhostFrag/releases/latest).
+
+## Download
+
+- [Latest release](https://github.com/xiaoyi12345493/GhostFrag/releases/latest)
+- [GhostFrag APK](https://github.com/xiaoyi12345493/GhostFrag/releases/latest/download/GhostFrag-debug.apk)
+- [GhostFrag Companion APK](https://github.com/xiaoyi12345493/GhostFrag/releases/latest/download/GhostFrag-Companion-debug.apk)
+- [6.1.157-android14-11-g19a495a97bff profile](https://github.com/xiaoyi12345493/GhostFrag/releases/latest/download/6.1.157-android14-11-g19a495a97bff.conf)
+
+The latest release is v1.1 and includes the corrected 6.1.157 profile (`kernel_phys_load = 0xa8080000`).
 
 ## Use the app
 
